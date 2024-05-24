@@ -1,0 +1,1132 @@
+{
+  "currentVersion" : 11.2, 
+  "id" : 0, 
+  "name" : "Economic_Index", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "192e0b6baf66495bb90ff53182d5037a", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "NAME", 
+  "description" : "\u003cDIV STYLE=\"text-align:Left;\"\u003e\u003cDIV\u003e\u003cDIV\u003e\u003cP\u003e\u003cSPAN\u003eEvery Census Tract in Tempe, Arizona is given an index value based on\u003c/SPAN\u003e\u003cSPAN\u003e \u003c/SPAN\u003e\u003cSPAN\u003etwo criteria: poverty levels and unemployment rates. Poverty levels for each tract are measured in percent of population below the poverty line. Unemployment is measured by percent of population currently without employment. The z-scores of each criteria are then combined in a weighted average to arrive at the final index value. The data for the criteria are collected and maintained by the U.S. Census Bureau. Our data came from the 2017 American Community Survey and is on the census tract level. It is projected in NAD 1983 Arizona Central State Plane projection in international feet.  \u003c/SPAN\u003e\u003c/P\u003e\u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e", 
+  "copyrightText" : "https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?re fresh=t \nhttps://www.census.gov/programs-surveys/acs \nhttps://pdfs.semanticscholar.org/f983/e8c4eb7d7c30694dd72c5849dd6f ee8a5c79.pdf\nhttps://www.socialprogress.org/?tab=2&code=USA \nhttps://datatempegov.opendata.arcgis.com/datasets/8e29f9dd8472448eaa84e57301 504481_0 \nhttps://www.pewresearch.org/fact-tank/2015/09/22/the-many-ways-tomeasure-economic-inequality/\nhttps://www.urban.org/urban-wire/income-inequality-good-measureequity-cities\nhttps://link.springer.com/content/pdf/10.1007%2Fs11205-019-022087.pdf \nhttps://patimes.org/primer-effective-meaningful-social-equitymeasurement/\nhttps://haasinstitute.berkeley.edu/equitymetrics\nhttps://www.oecd.org/regreform/policyconference/46313129.pdf\nhttps://aspacap.files.wordpress.com/2018/10/cap-theory.pdf \nhttps://www.adb.org/sites/default/files/publication/29288/equity-wellbeing.pdf\nhttps://www.arcgis.com/home/item.html?id=f2e813896b04413ea57b5e eb76c61d8b \n \nQuestions: sjwilke1@asu.edu", 
+  "defaultVisibility" : false, 
+  "editingInfo" : {
+    "lastEditDate" : 1589526765895, 
+    "schemaLastEditDate" : 1589526765895, 
+    "dataLastEditDate" : 1589526765895
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "supportsReturningQueryGeometry" : true, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriFeet"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsQueryAttachmentsCountOnly" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryEnvelope" : false, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated", 
+      "queryBins"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsQueryBins" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsFullTextSearch" : true
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "queryBinsCapabilities" : {
+    "supportsAsync" : true, 
+    "supportsAutoIntervalBin" : true, 
+    "supportsFixedIntervalBin" : true, 
+    "supportsFixedBoundariesBin" : true, 
+    "supportsDateBin" : true, 
+    "supportedStatisticTypes" : [
+      "COUNT", 
+      "SUM", 
+      "AVG", 
+      "VAR", 
+      "STDDEV", 
+      "MIN", 
+      "MAX", 
+      "PERCENTILE_CONT", 
+      "PERCENTILE_DISC", 
+      "CentroidAggregate", 
+      "EnvelopeAggregate", 
+      "ConvexHullAggregate"
+    ]
+  }, 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON"
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : 681141.34186351672, 
+    "ymin" : 843908.40944881749, 
+    "xmax" : 712036.93635170534, 
+    "ymax" : 896569.56135170907, 
+    "spatialReference" : {
+      "wkid" : 102991, 
+      "latestWkid" : 6405
+    }
+  }, 
+  "drawingInfo":{"renderer":{"visualVariables":[{"type":"sizeInfo","target":"outline","expression":"view.scale","valueExpression":"$view.scale","stops":[{"size":1.5,"value":32656},{"size":0.75,"value":102049},{"size":0.375,"value":408197},{"size":0,"value":816395}]}],"type":"uniqueValue","field1":"EquityIndexRating","defaultSymbol":null,"uniqueValueInfos":[{"value":"1","label":"Very High","symbol":{"color":[158,85,156,255],"outline":{"color":[153,153,153,64],"width":0.75,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}},{"value":"2","label":"High","symbol":{"color":[20,158,206,255],"outline":{"color":[153,153,153,64],"width":0.75,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}},{"value":"3","label":"Medium","symbol":{"color":[237,81,81,255],"outline":{"color":[153,153,153,64],"width":0.75,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}},{"value":"4","label":"Low","symbol":{"color":[167,198,54,255],"outline":{"color":[153,153,153,64],"width":0.75,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}},{"value":"5","label":"Very Low","symbol":{"color":[252,146,31,255],"outline":{"color":[153,153,153,64],"width":0.75,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}}]},"transparency":20}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasMetadata" : true, 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "EquityIndexRating", 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "STATE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "STATE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 2, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COUNTY", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TRACT", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "TRACT", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GEOID10", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GEOID10", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 11, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NAME", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "NAME", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 268, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ACRES", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "ACRES", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SQMI", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "SQMI", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TOTAL_POP", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "TOTAL_POP", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "DISABILITY", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "DISABILITY", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Geo_Id", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Geo_Id", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_Unemployment", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_Unemployment", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_PovertyLine1", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_PovertyLine1", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_ForeignBorn", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_ForeignBorn", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_PersonOfColor", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_PersonOfColor", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_Disability", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_Disability", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Field", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Non White", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ForeignBorn", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "ForeignBorn", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FBorn_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "FBorn_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NWhite_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "NWhite_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Disability_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Disability_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Unemp_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Unemp_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Poverty_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Poverty_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "LExp_Zscore", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "LExp_Zscore", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MaletoFemale", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "MaletoFemale", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Zscore_MaletoFemale", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Zscore_MaletoFemale", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_Male", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_Male", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Nor_Female", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Nor_Female", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Male", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Male", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Female", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Female", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Unemployed", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Unemployed", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Life_Expectancy", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Life Expectancy", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HD01_VD02", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "HD01_VD02", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "male_lowedu", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "male_lowedu", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HD01_VD43", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "HD01_VD43", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "female_low", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "female_low", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Economic_Index_Z", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Economic_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Racial_Index_Z", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Racial_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SocialEquityIndex", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SocialEquityIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Social_Index", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Social_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Racial_Index", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Racial_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Economic_Index", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Economic_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "RacialEquityIndex", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "RacialEquityIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "EconomicEquityIndex", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "EconomicEquityIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "LifeExp_Index", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "LifeExp_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Disability_Index", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Disability_Index", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HealthEquityIndex", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "HealthEquityIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HealthIndex", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "HealthIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "EquityIndex", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "EquityIndex", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "EquityIndexRating", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Equity Index Rating", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 256, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "Economic_Index_EquityIndexRating_ea0beff0-40e3-411d-83fc-7242069f6b61", 
+        "codedValues" : [
+          {
+            "name" : "Very High", 
+            "code" : "1"
+          }, 
+          {
+            "name" : "High", 
+            "code" : "2"
+          }, 
+          {
+            "name" : "Medium", 
+            "code" : "3"
+          }, 
+          {
+            "name" : "Low", 
+            "code" : "4"
+          }, 
+          {
+            "name" : "Very Low", 
+            "code" : "5"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__EQUITY_I__F4B70D85DEF460C2", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_26415.EQUITY_INDEX_ECONOMIC_INDEX_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }, 
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "EquityIndexRating_Index", 
+      "fields" : "EquityIndexRating", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "EquityIndexRating_Index", 
+      "indexType" : "Attribute"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [
+    {
+      "id" : "1", 
+      "name" : "Very High", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Very High", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolNone", 
+          "prototype" : {
+            "attributes" : {
+              "EquityIndexRating" : "1", 
+              "STATE" : null, 
+              "COUNTY" : null, 
+              "TRACT" : null, 
+              "GEOID10" : null, 
+              "NAME" : null, 
+              "ACRES" : null, 
+              "SQMI" : null, 
+              "TOTAL_POP" : null, 
+              "DISABILITY" : null, 
+              "Geo_Id" : null, 
+              "Nor_Unemployment" : null, 
+              "Nor_PovertyLine1" : null, 
+              "Nor_ForeignBorn" : null, 
+              "Nor_PersonOfColor" : null, 
+              "Nor_Disability" : null, 
+              "Field" : null, 
+              "ForeignBorn" : null, 
+              "FBorn_Zscore" : null, 
+              "NWhite_Zscore" : null, 
+              "Disability_Zscore" : null, 
+              "Unemp_Zscore" : null, 
+              "Poverty_Zscore" : null, 
+              "LExp_Zscore" : null, 
+              "MaletoFemale" : null, 
+              "Zscore_MaletoFemale" : null, 
+              "Nor_Male" : null, 
+              "Nor_Female" : null, 
+              "Male" : null, 
+              "Female" : null, 
+              "Unemployed" : null, 
+              "Life_Expectancy" : null, 
+              "HD01_VD02" : null, 
+              "male_lowedu" : null, 
+              "HD01_VD43" : null, 
+              "female_low" : null, 
+              "Economic_Index_Z" : null, 
+              "Racial_Index_Z" : null, 
+              "SocialEquityIndex" : null, 
+              "Social_Index" : null, 
+              "Racial_Index" : null, 
+              "Economic_Index" : null, 
+              "RacialEquityIndex" : null, 
+              "EconomicEquityIndex" : null, 
+              "LifeExp_Index" : null, 
+              "Disability_Index" : null, 
+              "HealthEquityIndex" : null, 
+              "HealthIndex" : null, 
+              "EquityIndex" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "2", 
+      "name" : "High", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "High", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolNone", 
+          "prototype" : {
+            "attributes" : {
+              "EquityIndexRating" : "2", 
+              "STATE" : null, 
+              "COUNTY" : null, 
+              "TRACT" : null, 
+              "GEOID10" : null, 
+              "NAME" : null, 
+              "ACRES" : null, 
+              "SQMI" : null, 
+              "TOTAL_POP" : null, 
+              "DISABILITY" : null, 
+              "Geo_Id" : null, 
+              "Nor_Unemployment" : null, 
+              "Nor_PovertyLine1" : null, 
+              "Nor_ForeignBorn" : null, 
+              "Nor_PersonOfColor" : null, 
+              "Nor_Disability" : null, 
+              "Field" : null, 
+              "ForeignBorn" : null, 
+              "FBorn_Zscore" : null, 
+              "NWhite_Zscore" : null, 
+              "Disability_Zscore" : null, 
+              "Unemp_Zscore" : null, 
+              "Poverty_Zscore" : null, 
+              "LExp_Zscore" : null, 
+              "MaletoFemale" : null, 
+              "Zscore_MaletoFemale" : null, 
+              "Nor_Male" : null, 
+              "Nor_Female" : null, 
+              "Male" : null, 
+              "Female" : null, 
+              "Unemployed" : null, 
+              "Life_Expectancy" : null, 
+              "HD01_VD02" : null, 
+              "male_lowedu" : null, 
+              "HD01_VD43" : null, 
+              "female_low" : null, 
+              "Economic_Index_Z" : null, 
+              "Racial_Index_Z" : null, 
+              "SocialEquityIndex" : null, 
+              "Social_Index" : null, 
+              "Racial_Index" : null, 
+              "Economic_Index" : null, 
+              "RacialEquityIndex" : null, 
+              "EconomicEquityIndex" : null, 
+              "LifeExp_Index" : null, 
+              "Disability_Index" : null, 
+              "HealthEquityIndex" : null, 
+              "HealthIndex" : null, 
+              "EquityIndex" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "3", 
+      "name" : "Medium", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Medium", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolNone", 
+          "prototype" : {
+            "attributes" : {
+              "EquityIndexRating" : "3", 
+              "STATE" : null, 
+              "COUNTY" : null, 
+              "TRACT" : null, 
+              "GEOID10" : null, 
+              "NAME" : null, 
+              "ACRES" : null, 
+              "SQMI" : null, 
+              "TOTAL_POP" : null, 
+              "DISABILITY" : null, 
+              "Geo_Id" : null, 
+              "Nor_Unemployment" : null, 
+              "Nor_PovertyLine1" : null, 
+              "Nor_ForeignBorn" : null, 
+              "Nor_PersonOfColor" : null, 
+              "Nor_Disability" : null, 
+              "Field" : null, 
+              "ForeignBorn" : null, 
+              "FBorn_Zscore" : null, 
+              "NWhite_Zscore" : null, 
+              "Disability_Zscore" : null, 
+              "Unemp_Zscore" : null, 
+              "Poverty_Zscore" : null, 
+              "LExp_Zscore" : null, 
+              "MaletoFemale" : null, 
+              "Zscore_MaletoFemale" : null, 
+              "Nor_Male" : null, 
+              "Nor_Female" : null, 
+              "Male" : null, 
+              "Female" : null, 
+              "Unemployed" : null, 
+              "Life_Expectancy" : null, 
+              "HD01_VD02" : null, 
+              "male_lowedu" : null, 
+              "HD01_VD43" : null, 
+              "female_low" : null, 
+              "Economic_Index_Z" : null, 
+              "Racial_Index_Z" : null, 
+              "SocialEquityIndex" : null, 
+              "Social_Index" : null, 
+              "Racial_Index" : null, 
+              "Economic_Index" : null, 
+              "RacialEquityIndex" : null, 
+              "EconomicEquityIndex" : null, 
+              "LifeExp_Index" : null, 
+              "Disability_Index" : null, 
+              "HealthEquityIndex" : null, 
+              "HealthIndex" : null, 
+              "EquityIndex" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "4", 
+      "name" : "Low", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Low", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolNone", 
+          "prototype" : {
+            "attributes" : {
+              "EquityIndexRating" : "4", 
+              "STATE" : null, 
+              "COUNTY" : null, 
+              "TRACT" : null, 
+              "GEOID10" : null, 
+              "NAME" : null, 
+              "ACRES" : null, 
+              "SQMI" : null, 
+              "TOTAL_POP" : null, 
+              "DISABILITY" : null, 
+              "Geo_Id" : null, 
+              "Nor_Unemployment" : null, 
+              "Nor_PovertyLine1" : null, 
+              "Nor_ForeignBorn" : null, 
+              "Nor_PersonOfColor" : null, 
+              "Nor_Disability" : null, 
+              "Field" : null, 
+              "ForeignBorn" : null, 
+              "FBorn_Zscore" : null, 
+              "NWhite_Zscore" : null, 
+              "Disability_Zscore" : null, 
+              "Unemp_Zscore" : null, 
+              "Poverty_Zscore" : null, 
+              "LExp_Zscore" : null, 
+              "MaletoFemale" : null, 
+              "Zscore_MaletoFemale" : null, 
+              "Nor_Male" : null, 
+              "Nor_Female" : null, 
+              "Male" : null, 
+              "Female" : null, 
+              "Unemployed" : null, 
+              "Life_Expectancy" : null, 
+              "HD01_VD02" : null, 
+              "male_lowedu" : null, 
+              "HD01_VD43" : null, 
+              "female_low" : null, 
+              "Economic_Index_Z" : null, 
+              "Racial_Index_Z" : null, 
+              "SocialEquityIndex" : null, 
+              "Social_Index" : null, 
+              "Racial_Index" : null, 
+              "Economic_Index" : null, 
+              "RacialEquityIndex" : null, 
+              "EconomicEquityIndex" : null, 
+              "LifeExp_Index" : null, 
+              "Disability_Index" : null, 
+              "HealthEquityIndex" : null, 
+              "HealthIndex" : null, 
+              "EquityIndex" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "5", 
+      "name" : "Very Low", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Very Low", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolNone", 
+          "prototype" : {
+            "attributes" : {
+              "EquityIndexRating" : "5", 
+              "STATE" : null, 
+              "COUNTY" : null, 
+              "TRACT" : null, 
+              "GEOID10" : null, 
+              "NAME" : null, 
+              "ACRES" : null, 
+              "SQMI" : null, 
+              "TOTAL_POP" : null, 
+              "DISABILITY" : null, 
+              "Geo_Id" : null, 
+              "Nor_Unemployment" : null, 
+              "Nor_PovertyLine1" : null, 
+              "Nor_ForeignBorn" : null, 
+              "Nor_PersonOfColor" : null, 
+              "Nor_Disability" : null, 
+              "Field" : null, 
+              "ForeignBorn" : null, 
+              "FBorn_Zscore" : null, 
+              "NWhite_Zscore" : null, 
+              "Disability_Zscore" : null, 
+              "Unemp_Zscore" : null, 
+              "Poverty_Zscore" : null, 
+              "LExp_Zscore" : null, 
+              "MaletoFemale" : null, 
+              "Zscore_MaletoFemale" : null, 
+              "Nor_Male" : null, 
+              "Nor_Female" : null, 
+              "Male" : null, 
+              "Female" : null, 
+              "Unemployed" : null, 
+              "Life_Expectancy" : null, 
+              "HD01_VD02" : null, 
+              "male_lowedu" : null, 
+              "HD01_VD43" : null, 
+              "female_low" : null, 
+              "Economic_Index_Z" : null, 
+              "Racial_Index_Z" : null, 
+              "SocialEquityIndex" : null, 
+              "Social_Index" : null, 
+              "Racial_Index" : null, 
+              "Economic_Index" : null, 
+              "RacialEquityIndex" : null, 
+              "EconomicEquityIndex" : null, 
+              "LifeExp_Index" : null, 
+              "Disability_Index" : null, 
+              "HealthEquityIndex" : null, 
+              "HealthIndex" : null, 
+              "EquityIndex" : null
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService", 
+  "supportedAppendSourceFilterFormats" : "sqlite,geoPackage,shapefile,filegdb,featureService", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,excel", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportedSyncDataOptions" : 4, 
+  "hasStaticData" : false, 
+  "maxRecordCount" : 2000, 
+  "standardMaxRecordCount" : 4000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query"
+}
